@@ -1,0 +1,64 @@
+.text-animation{
+    animation-name:transLeft;
+    animation-duration: 1s;
+}
+.text-animation2 {
+    animation-name: transLeft;
+    animation-duration:2s;
+
+
+}
+.text-animation01{
+    animation-name:transRight;
+    animation-duration: 1s;
+}
+.text-animation02 {
+    animation-name: transRight2;
+    animation-duration:2s;
+
+
+}
+@keyframes transRight{
+    0%{
+        opacity:0;
+        transform: translateX(150px);
+    }
+    
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+@keyframes transRight2{
+    0%{
+        opacity:0;
+        transform: translateX(150px);
+    }
+   
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+@keyframes transLeft{
+    0%{
+        opacity:0;
+        transform: translateX(-150px);
+    }
+    
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+@keyframes transLeft2{
+    0%{
+        opacity:0;
+        transform: translateX(-150px);
+    }
+   
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
